@@ -1,0 +1,38 @@
+/* Angelica Jecklyne Beauty Ansanay_202432104 */
+body { 
+    background: linear-gradient(135deg, #ffedfa 0%, #ffd0b4 50%, #ffaa85 100%); 
+    height: 100vh;
+}
+
+.custom-navbar {
+    background-color: rgba(230, 81, 0, 0.8) !important;
+    backdrop-filter: blur(5px);
+}
+
+.bg-custom-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+}
+
+.text-dark-custom {
+    color: #4e261a;
+    font-weight: bold;
+}
+
+.bg-peach {
+    background-color: #ff8a65;
+}
+
+.btn-peach-gradient {
+    background: linear-gradient(135deg, #ff8a65 0%, #ff7043 100%);
+    border: none;
+    transition: opacity 0.2s;
+}
+
+.btn-peach-gradient:hover {
+    opacity: 0.9;
+}
+
+.nav-link:hover { 
+    color: #ffd1b3 !important; 
+} 

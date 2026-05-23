@@ -1,0 +1,105 @@
+/* Angelica Jecklyne Beauty Ansanay_202432104 */
+body { 
+    background-color: #fff3ed; 
+    font-family: 'Verdana', sans-serif; 
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #ffaa85 0%, #ffaa65 100%);
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+}
+
+nav a {
+    color: #ffe0b2;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a.active { 
+    color: white; 
+    font-weight: bold; 
+    text-decoration: underline; 
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.reg-form { 
+    background: white; 
+    padding: 25px; 
+    border-radius: 10px; 
+    width: 100%; 
+    max-width: 600px; 
+    border-top: 5px solid #ff7043; 
+    box-shadow: 0 8px 24px rgba(255,112,67,0.15);
+}
+
+fieldset { 
+    border: none; 
+    padding: 0;
+    margin: 0;
+}
+
+legend { 
+    font-size: 1.5em; 
+    color: #ff7043; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+
+.form-group { 
+    margin-bottom: 18px; 
+}
+
+.form-group label {
+    font-size: 0.9em;
+    color: #5d4037;
+    font-weight: bold;
+}
+
+input[type="text"], select, textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 1px solid #ffccbc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #ff7043;
+    box-shadow: 0 0 5px rgba(255,112,67,0.3);
+}
+
+.checkbox-group {
+    margin-top: 8px;
+}
+
+button { 
+    background: linear-gradient(135deg, #ffaa65 0%, #ff7043 100%); 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-weight: bold;
+    font-size: 1em;
+    box-shadow: 0 4px 10px rgba(255,112,67,0.2);
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}

@@ -1,0 +1,76 @@
+/* Angelica Jecklyne Beauty Ansanay_202432104 */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: #fffdfb; 
+    margin: 0; 
+}
+
+header { 
+    background: linear-gradient(135deg, #ffdcd0 0%, #ffb399 100%); 
+    color: #4e261a; 
+    padding: 2rem 1rem; 
+    text-align: center; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #4e261a;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+nav a.active {
+    background: white;
+    font-weight: bold;
+    border-color: #ff8a65;
+}
+
+main { 
+    padding: 2rem; 
+    max-width: 1000px; 
+    margin: auto; 
+}
+
+h2 {
+    color: #e65100;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.styled-table th {
+    background-color: #ff8a65;
+    color: white;
+    padding: 12px;
+    border: 1px solid #ffab91;
+}
+
+.styled-table td {
+    padding: 12px;
+    border: 1px solid #ffe0b2;
+    background-color: white;
+}
+
+.styled-table tbody tr:nth-of-type(even) td {
+    background-color: #fff3e0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fw-bold {
+    font-weight: bold;
+}

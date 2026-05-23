@@ -1,0 +1,98 @@
+/* Angelica Jecklyne Beauty Ansanay_202432104 */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: #fff5f0; 
+    margin: 0; 
+    color: #4a3b32;
+}
+
+header { 
+    background: linear-gradient(135deg, #ffedfa 0%, #ffd0b4 50%, #ffaa85 100%); 
+    color: #3e2723; 
+    padding: 2rem 1rem; 
+    text-align: center; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    margin: 0 0 1rem 0;
+    font-weight: 700;
+}
+
+nav {  
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #5d4037;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+nav a.active { 
+    background: #ff8a65; 
+    color: white;
+    box-shadow: 0 4px 10px rgba(255,138,101,0.3);
+}
+
+main { 
+    padding: 2rem; 
+    max-width: 900px; 
+    margin: auto; 
+}
+
+h2 {
+    color: #d84315;
+    margin-bottom: 1.5rem;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.styled-table th { 
+    background-color: #ff8a65; 
+    color: white; 
+    font-weight: 600;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #fbe9e7;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ff8a65;
+}
+
+.styled-table tbody tr:nth-of-type(even) { 
+    background-color: #fdfaf8; 
+}
+
+.status-active {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.status-maintenance {
+    color: #c62828;
+    font-weight: bold;
+}
